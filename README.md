@@ -188,11 +188,11 @@
 
 [27.2 Clearing the Cache from List 168](#_Toc122100534)
 
-## 1.Overview
+# 1. Overview
 
 This document will help you in configuring all custom reusable components that are created as part of RA migration.
 
-## 2.How to Edit a Page
+# 2. How to Edit a Page
 
 - Open the site page and click on **Edit** button as shown below.
 
@@ -204,7 +204,7 @@ This document will help you in configuring all custom reusable components that a
 
 - Edit the required details.
 
-## 3.How to Add a Web Part
+# 3. How to Add a Web Part
 
 - Edit a page (refer how to edit a page). Once the page is in edit mode, click on the section where the new web part needs to be added.
 - Click on highlighted icon to add a new web part.
@@ -221,7 +221,7 @@ This document will help you in configuring all custom reusable components that a
 
 - Selected web part will be added to the page.
 
-## 4.How to Edit a Web Part
+# 4. How to Edit a Web Part
 
 - Edit a page (refer how to edit a page). Once the page is in edit mode, click on the web part and click on edit web part icon as shown below.
 
@@ -230,7 +230,7 @@ This document will help you in configuring all custom reusable components that a
 - A new web part property panel will be opened.
 - Update the required properties and click on Apply button.
 
-## 5.How to Publish a Page
+# 5. How to Publish a Page
 
 - Once the page editing is completed, click on the republish button as shown below.
 
@@ -238,7 +238,7 @@ This document will help you in configuring all custom reusable components that a
 
 - Page will be published.
 
-## 6.How to Navigate to a List
+# 6. How to Navigate to a List
 
 - Open the site and click on settings icon and click on site contents link.
 
@@ -253,16 +253,180 @@ This document will help you in configuring all custom reusable components that a
 
 ![image](https://user-images.githubusercontent.com/120722410/208631994-43f8fa70-99fb-4530-b992-6bbec93f908f.png)
 
-## 7.DOSNP – Dashboard
+# 7. DOSNP – Dashboard
 
-### 7.1Properties
+## 7.1 Properties
 
 | **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
 | --- | --- | --- | --- |
 | **Title** | Specifies the web part title | Any string value |
- |
 | **Description** | Specifies the web part description | Any string value |
- |
 | **Configure Links Data** | Specify all the links that needs to be displayed under super user tab |
- |
- |
+
+## 7.2 Configure DOSNP - Dashboard
+
+- Create a Dashboard page.
+- Edit the site page ([refer how to edit a page section](#_How_to_Edit)) and add **DOSNP - Dashboard** web part to the page ([refer how to add a web part section](#_How_to_Add)).
+- Edit the web part ([refer how to edit a web part](#_How_to_Edit_1)), a new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/208641821-cf43a342-8466-4f87-ba6d-c628d7d0be46.png)
+
+- Enter title and description field values.
+- Click on **Configure Links Data** button to configure links displayed in super user tab. A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/208642076-20b5b64a-78ca-43b4-a057-267e372a6749.png)
+
+- Enter **Title** , **Navigation URL** , **Sort Order** values.
+- Select **Open in New Tab** to open a link in new tab.
+- Select **Is active** to display the link. Else the link item will not appear.
+- Click on **+ icon** to add a new row.
+
+![image](https://user-images.githubusercontent.com/120722410/208642218-09d07651-be41-4842-a270-1854cc0c8052.png)
+
+- Enter all the links information.
+
+![image](https://user-images.githubusercontent.com/120722410/208642764-ff52dbb8-2e92-4d07-8f37-a68b4b0cd179.png)
+
+- Click on Add and save button.
+
+![image](https://user-images.githubusercontent.com/120722410/208642947-823fc77e-61f2-4819-89d0-6292624e531e.png)
+
+- Click on **Apply** button.
+- Save and publish the page.
+- DOSNP - Dashboard web part configuration will be completed and below screen will be displayed.
+
+**Admin view**
+
+![image](https://user-images.githubusercontent.com/120722410/208643539-a8939735-da3e-4593-867a-d1c01101daf2.png)
+
+**Super User view**
+
+![image](https://user-images.githubusercontent.com/120722410/208644292-a43f4f51-9bc1-40a6-864b-5e931d9ec03b.png)
+
+- Only admin users (with Manage Permissions, Manage Lists, Delete Versions) can see both admin and Super User tabs.
+- Contributors (with Add List Items, Edit List Items and View Versions) can only see Super User tab.
+
+## 7.3 Configure Web Part Tasks
+
+- Here is the list of all tasks that are being used in configuring prerequisites of all the custom reusable components.
+- Each web part will be associated with one or more tasks listed below.
+
+### 7.3.1 Create Fields
+
+- Select required web part from the dropdown list. All the associated web part tasks will be displayed for the selected web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208670719-0cd0b26b-0425-4deb-b688-79b9a45f7cf7.png)
+
+- Select Create Fields checkbox. configure web part button will be enabled.
+- Click on configure web part button.
+- If the fields are already created, this checkbox will be in disabled mode.
+- You can select multiple tasks at a time and configure the web part.
+
+### 7.3.2 Create Content Type
+
+- Select required web part from the dropdown list. All the associated web part tasks will be displayed for the selected web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208671071-1140849b-3768-497d-9394-39eff885fc58.png)
+
+- Select Create Content Type checkbox. configure web part button will be enabled
+- Click on configure web part button.
+- If the content types are already created, this task will be in disabled mode.
+- You can select multiple tasks at a time and configure the web part.
+
+### 7.3.3 Create List with Content Type
+
+- Select required web part from the dropdown list. All the associated web part tasks will be displayed for the selected web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208671256-baf279a4-8734-4ad8-91c2-d24e6e58d612.png)
+
+- Select Create List with Content Type checkbox. Configure web part button will be enabled.
+- Click on configure web part button.
+- If the Lists are already created, this task will be in disabled mode.
+- You can select multiple tasks at a time and configure the web parts.
+
+### 7.3.4 Add Configurations
+
+- Select required web part from the dropdown list. All the associated web part tasks will be displayed for the selected web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208671448-a4faf66b-67fb-4f06-8904-7778a3bfa8ce.png)
+
+- Select Add Configurations checkbox, configure web part button will be enabled.
+- Edit configuration values by clicking on the edit icon as shown above.
+
+![image](https://user-images.githubusercontent.com/120722410/208671520-3f06a21b-ee4f-4030-b709-de2aa24ff914.png)
+
+- Enter configuration values and click on save button.
+- Click on configure web part button.
+
+![image](https://user-images.githubusercontent.com/120722410/208671590-605de692-9421-4620-ad5f-cf61c277d1eb.png)
+
+- This will add/modify configuration entries in the configuration list.
+- You can select multiple tasks at a time and configure the web parts.
+
+# 8. DOSNP - Carousel
+
+## 8.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 8.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **Select Data Source** | Select the data source to display carousel images | - List <br> - Library <br> - Properties | Images can be displayed from any selected data source |
+| **List Name** | Specify the list name to display images | Default value is ' **DOSPN-Carousel**' | This is a read only field and applicable only if the data source is **List** |
+| **Web Part Key** | Specify web part key to retrieve filtered images from a List | Default value is ' **RATestCarousel**' | Applicable only if the data source is **List** |
+| **Library Relative Path** | Specify a path to display images from Library | Any library path or folder path | Applicable only if the data source is **Library** |
+| **Configure Data** | Specify all image item details to display items from Properties | Provide all the item details | Applicable only if the data source is **Properties** |
+| **Number Of Items To Display** | Specify the item limit display in carousel |
+| **Interval In Milliseconds** | Specify the amount of time to delay between automatically cycling an item | Default value is 5 seconds |
+| **Pause On Hover** | Specifies if slides cycling should pause when hovering over the content | - True <br> - False | Default value is **True** |
+| **Is Infinite** | Indicates if infinite scrolling is enabled | - True <br> - False | Default value is **True** |
+| **Show Indicators** | Specifies if set of slide position indicators is shown | - True <br> - False | Default value is **True** |
+| **Show Details** | Specifies if the details are shown on hover or constantly | - True <br> - False | Default value is **True** |
+| **Indicator Shape** | Specifies the indicator shape | - Circle <br> - Square <br> - Rectangle | Default value is **Circle** |
+| **Chevron Icon Display Type** | Specifies the buttons container display mode | - Buttons Only <br> - Hidden | Default value is **Buttons Only** |
+| **Image Fit** | Specifies the image display type | - Cover <br> - Contain <br> - Fill | Default value is **Cover** |
+| **Carousel Height** | Specify the carousel height | | Width will be auto, and height can be specified |
+
+## 8.3 Configure DOSNP - Carousel web part
+
+Edit the site page ([refer how to edit a page](#_How_to_Edit)) and add DOSNP - Carousel web part ([refer how to add a web part](#_How_to_Add)) to the page. This web part can be configured from 3 different data sources.
+
+- List
+- Library
+- Properties
+
+### 8.3.1 Configure from List
+
+#### 8.3.1.1 Add data to List
+
+- Navigate to DOSNP-Carousel list ([refer how to navigate to a list](#_How_to_Navigate)).
+
+- A new page will be opened as below. Click on New button.
+
+![image](https://user-images.githubusercontent.com/120722410/208678465-f51c4ac5-6eab-43cb-af4d-0073fe3dc415.png)
+
+- A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/208678623-e11cde12-77f9-4c3f-90fd-6c425f16f4dd.png)
+
+- Enter Title, Description Plain values.
+- Enter Image URL. This image will be displayed in the carousel.
+- Enter GA URL to open a link when click on an item.
+- Select Open in New Tab to open a link in new tab.
+- Select Is Active to display the item in carousel. Else item won't be displayed in carousel.
+- Enter sort order to sort items.
+- Enter web part key. Make sure to configure this value in web part properties.
+
+![image](https://user-images.githubusercontent.com/120722410/208678912-563b023c-21dd-4458-bbb0-1566ae6f9018.png)
+
+- Click on Save button.
+- Item details will be saved into the list.
+
+![image](https://user-images.githubusercontent.com/120722410/208678990-99eb75f8-88b8-4fb0-a25e-d85acd51184d.png)
