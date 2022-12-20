@@ -2,7 +2,7 @@
 
 # Contents
 
-[1 Overview 5]
+[1 Overview 5] (#_Toc122100442)
 
 [2 How to Edit a Page 5]
 
@@ -16,10 +16,11 @@
 
 [7 DOSNP – Dashboard 9]
 
-  [7.1 Properties 9]
-  [7.2 Configure DOSNP - Dashboard 10]
+[7.1 Properties 9]
 
-  [7.3 Configure Web Part Tasks 13]
+[7.2 Configure DOSNP - Dashboard 10]
+
+[7.3 Configure Web Part Tasks 13]
 
 [8 DOSNP - Carousel 17]
 
