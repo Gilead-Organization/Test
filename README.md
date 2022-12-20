@@ -1,6 +1,6 @@
 # Components Configuration Guide
 
-# Contents
+## Contents
 
 [1 Overview 5](#_Toc122100442)
 
@@ -187,3 +187,82 @@
 [27.1 Clearing the Local Cache 168](#_Toc122100533)
 
 [27.2 Clearing the Cache from List 168](#_Toc122100534)
+
+## 1.Overview
+
+This document will help you in configuring all custom reusable components that are created as part of RA migration.
+
+## 2.How to Edit a Page
+
+- Open the site page and click on **Edit** button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208419946-471c7587-0d76-4f34-a257-924f04c05f28.png)
+
+- Page will be opened in edit mode as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208631174-14cd837d-e3b2-4e2d-a678-731bb21c4b82.png)
+
+- Edit the required details.
+
+## 3.How to Add a Web Part
+
+- Edit a page (refer how to edit a page). Once the page is in edit mode, click on the section where the new web part needs to be added.
+- Click on highlighted icon to add a new web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208631385-d5d01756-557d-410d-8d99-f18b08cacf5c.png)
+
+- A new panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208631466-e80abb54-ec1b-4e5a-acef-dfeef7ce1bfc.png)
+
+- Select any web part or search for a specific web part to add.
+
+![image](https://user-images.githubusercontent.com/120722410/208631547-7c934149-70dd-40ec-9565-fc047ba94acc.png)
+
+- Selected web part will be added to the page.
+
+## 4.How to Edit a Web Part
+
+- Edit a page (refer how to edit a page). Once the page is in edit mode, click on the web part and click on edit web part icon as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208631638-97f54c60-c693-4429-9184-46ad1aef6c82.png)
+
+- A new web part property panel will be opened.
+- Update the required properties and click on Apply button.
+
+## 5.How to Publish a Page
+
+- Once the page editing is completed, click on the republish button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208631720-5907add1-8c36-42b1-b68a-998300cca4ae.png)
+
+- Page will be published.
+
+## 6.How to Navigate to a List
+
+- Open the site and click on settings icon and click on site contents link.
+
+![image](https://user-images.githubusercontent.com/120722410/208631805-6c93be37-4093-4e1d-a329-99c688ccbe6d.png)
+
+- A new page will be opened with all the lists as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208631895-930a31f6-0edf-43e1-8e78-a15575d11d2e.png)
+
+- Select the required list Ex: DOSNP-Carousel.
+- DOSNP-Carousel list will be opened.
+
+![image](https://user-images.githubusercontent.com/120722410/208631994-43f8fa70-99fb-4530-b992-6bbec93f908f.png)
+
+## 7.DOSNP – Dashboard
+
+### 7.1Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value |
+ |
+| **Description** | Specifies the web part description | Any string value |
+ |
+| **Configure Links Data** | Specify all the links that needs to be displayed under super user tab |
+ |
+ |
