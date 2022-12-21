@@ -2,9 +2,9 @@
 
 ## Contents
 
-[1 Overview](#user-content-1-overview)
+[1 Overview 5](#_Toc122100442)
 
-[2 How to Edit a Page]
+[2 How to Edit a Page 5](#_Toc122100443)
 
 [3 How to Add a Web Part 5](#_Toc122100444)
 
@@ -609,3 +609,118 @@ Edit the site page and add **DOSNP - New Hire** web part to the page. This can b
 - List
 - Service
 - JSON
+
+### 10.3.1 Configure using List
+
+#### 10.3.1.1 Add data to list
+
+- Navigate to DOSNP-NewHire list (refer how to navigate to list).
+
+- A new page will be opened as below. Click on **New** button.
+
+![image](https://user-images.githubusercontent.com/120722410/208885843-20a26d18-e135-49a4-b445-6c674ad39027.png
+
+- A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/208885911-49365c2a-88de-46bc-9ecf-18ac166d8db7.png)
+
+- Enter **Title** , **User Details** values.
+- Select **Is Active** to display the item. Else item won't be displayed.
+- Enter sort order to sort items.
+- Enter web part key. **Make sure to configure this value in web part properties.**
+
+![image](https://user-images.githubusercontent.com/120722410/208886020-85f872cb-0eed-47dd-a2ea-1da2db4c9d84.png)
+
+- Click on Save button.
+- Item details will be saved into the list.
+
+![image](https://user-images.githubusercontent.com/120722410/208886088-06f7d8f2-f61a-498c-95a4-c235debc9b3a.png)
+
+#### 10.3.1.2 Retrieve data from list
+
+- Edit the web part, web part property panel will be opened.
+- Select Data source as List and enter web part key value and click on Next button.
+
+![image](https://user-images.githubusercontent.com/120722410/208886793-aeeb8f7b-ba55-4947-8f21-679f9d7698b3.png)
+
+- Select the other properties as shown below based on the requirement.
+
+![image](https://user-images.githubusercontent.com/120722410/208886909-4e73b00d-c991-407e-93dd-495415dd70db.png)
+
+- Enter Number of Items To Display in New Hires.
+- Select Email checkbox if email id needs to be displayed.
+- Select Location checkbox if location need to be displayed.
+- Select Joining Date checkbox if joining date need to be displayed.
+- Select Display Mode as Carousel if new hire items need to be displayed as Carousel.
+- Select Display Mode as List if new hire items need to be displayed as a List.
+- Configure Date Format, Interval in Milliseconds, Show Indicators, Chevron Icon Display Type properties shown above.
+- Click on Apply button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208886983-0d59f93b-b080-4673-b45e-76f01e493e85.png)
+
+- Save and publish the page.
+- Items from DOSNP-NewHire list with web part key mentioned above will start appearing in the web part as shown below.
+
+- New Hire web part If display mode as Carousel.
+
+![image](https://user-images.githubusercontent.com/120722410/208887118-1bb25df4-93c8-45da-9a0e-c5c66b92e18d.png)
+
+- New Hire web part If display mode as List.
+
+![image](https://user-images.githubusercontent.com/120722410/208887189-c28b14c4-fae2-499d-895e-dfd278a1ae5e.png)
+
+### 10.3.2 Configure using Service
+
+- Edit the web part, web part property panel will be opened.
+- Select Data source as Service.
+
+![image](https://user-images.githubusercontent.com/120722410/208889144-e858632b-5ebd-443b-a7cd-5ef2ff65ee4e.png)
+
+- Select Service Type as Location to display new hires from a location.
+- Enter Location Name Ex: Dublin.
+- Enter Number of Days to get new hires from last 60 days.
+- Configure other properties as explained in the above section (Configure from List).
+- Click on Apply button.
+- Save and publish the page.
+
+### 10.3.3 Configure using JSON
+
+- Edit the web part, web part property panel will be opened.
+- Select Data source as JSON and enter JSON file path.
+
+![image](https://user-images.githubusercontent.com/120722410/208889471-7b8dd947-e70f-491a-bb04-44a9cbe5c3a4.png)
+
+- Configure other properties as explained in the above section (Configure from List).
+- Click on apply button.
+- Save and publish the page.
+- Sample JSON file text.
+
+[{"EmployeeID":3552,"CerID":151638,"Status":"I","Site":"Foster City","locn\_dscr":"Foster City","Email":"Terri.Michel@gilead.com","FirstName":"Terri","LastName":"Michel","FullName":"Terri Michel","NTName":"tmichel","Title":"Sr Manager, Development Business Ops","Type":"Regular","ReportsTo":235673,"ManagerCerID":235673,"ManagerID":235673,"ManagerFirstName":"Rachel","ManagerLastName":"Sievert","ManagerFullName":"Rachel Sievert","ManagerEmail":"rachel.sievert@gilead.com","DeptNum":"0011206001","Dept":"Development Business Ops - FC","JobGrade":29,"StartDate":"2001-09-17T00:00:00","LeaveDate":"2020-08-03T00:00:00","BuildingNum":"FC100-1","Phone":"+1 (650) 522-5248","TempAgency":null,"legal\_entity":"001","locn\_code":"US001","cost\_center":"1206","cost\_center\_descr":"Development Business Ops","lastupdated":"2021-08-03T04:00:00","createdate":"2017-02-08T00:12:00"},{"EmployeeID":14847,"CerID":159150,"Status":"A","Site":"Seattle","locn\_dscr":"Seattle","Email":"Deirdre.Mourey@gilead.com","FirstName":"Deirdre","LastName":"Mourey","FullName":"Deirdre Mourey","NTName":"dmourey","Title":"Development Business Ops Assoc II","Type":"Regular","ReportsTo":204219,"ManagerCerID":204219,"ManagerID":27308,"ManagerFirstName":"Amy","ManagerLastName":"McGuire","ManagerFullName":"Amy McGuire","ManagerEmail":"Amy.McGuire@gilead.com","DeptNum":"0011206003","Dept":"Development Business Ops - SE","JobGrade":26,"StartDate":"2006-08-14T00:00:00","LeaveDate":null,"BuildingNum":"ST199-1","Phone":"+1 (206) 832-2026","TempAgency":null,"legal\_entity":"001","locn\_code":"US004","cost\_center":"1206","cost\_center\_descr":"Development Business Ops","lastupdated":"2021-08-03T04:00:00","createdate":"2017-02-08T00:12:00"}]
+
+![image](https://user-images.githubusercontent.com/120722410/208889568-33548426-d643-43c0-bc77-4d13a9a5852d.png)
+
+# 11. DOSNP - Notice Board
+
+## 11.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 11.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **List Name** | Specify list name to retrieve items from a list | Default value is **'DOSNP-NoticeBoard'** | This is a read only field |
+| **Web Part Key** | Specify web part key to retrieve filtered images from a List | - Default value is **'**** Home\_NoticeBoard'** | Applicable only if the data source is a **List** |
+| **Show Notices for (days)** | Specify to retrieve notice from past days | Integer value |
+| **Show View All Link** | Enables or disables view all link | - True<br> - False | Default value is True |
+| **Select View All Type** | Specify to display view all link type | - Panel<br> - Page | Default value is Panel |
+| **Page URL** | Specify page URL to open view all link in a new page | | Once view all links is clicked, it redirects to a new page. |
+| **Enable Subscription** | Enables or Disables subscription | - True<br> - False | Default value is True |
+| **Enable Add Notification** | Enables or Disables add notification | - True<br> - False | Default value is True |
+| **Number Of Items To Display** | Specify the item limit display the items | Integer value |
+| **Display Mode** | Specify to display items in a selected layout | - List<br> - Carousel | - Select List to display Items in List Mode.<br> - Select Carousel to display Items in Carousel Mode. |
