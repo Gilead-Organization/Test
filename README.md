@@ -204,6 +204,7 @@ This document will help you in configuring all custom reusable components that a
 
 - Edit the required details.
 
+## 2.1 Add webpart 
 # 3. How to Add a Web Part
 
 - Edit a page (refer how to edit a page). Once the page is in edit mode, click on the section where the new web part needs to be added.
