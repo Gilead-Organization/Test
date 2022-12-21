@@ -2,59 +2,59 @@
 
 ## Contents
 
-[1 Overview 5](#_Toc122100442)
+[1 Overview](#_Toc122100442)
 
-[2 How to Edit a Page 5](#_Toc122100443)
+[2 How to Edit a Page](#_Toc122100443)
 
-[3 How to Add a Web Part 5](#_Toc122100444)
+[3 How to Add a Web Part](#_Toc122100444)
 
-[4 How to Edit a Web Part 7](#_Toc122100445)
+[4 How to Edit a Web Part](#_Toc122100445)
 
-[5 How to Publish a Page 7](#_Toc122100446)
+[5 How to Publish a Page](#_Toc122100446)
 
-[6 How to Navigate to a List 8](#_Toc122100447)
+[6 How to Navigate to a List](#_Toc122100447)
 
-[7 DOSNP – Dashboard 9](#_Toc122100448)
+[7 DOSNP – Dashboard](#_Toc122100448)
 
-[8 DOSNP - Carousel 17](#_Toc122100452)
+[8 DOSNP - Carousel](#_Toc122100452)
 
-[9 DOSNP - Call to Action 29](#_Toc122100457)
+[9 DOSNP - Call to Action](#_Toc122100457)
 
-[10 DOSNP - New Hire 34](#_Toc122100461)
+[10 DOSNP - New Hire](#_Toc122100461)
 
-[11 DOSNP - Notice Board 44](#_Toc122100465)
+[11 DOSNP - Notice Board](#_Toc122100465)
 
-[12 DOSNP - Featured Links 50](#_Toc122100469)
+[12 DOSNP - Featured Links](#_Toc122100469)
 
-[13 DOSNP - Breadcrumb 67](#_Toc122100473)
+[13 DOSNP - Breadcrumb](#_Toc122100473)
 
-[14 DOSNP - Navigation 71](#_Toc122100477)
+[14 DOSNP - Navigation](#_Toc122100477)
 
-[15 DOSNP - Accordion 77](#_Toc122100481)
+[15 DOSNP - Accordion](#_Toc122100481)
 
-[16 DOSNP - Document Card 87](#_Toc122100485)
+[16 DOSNP - Document Card](#_Toc122100485)
 
-[17 DOSNP - Testimonials 101](#_Toc122100489)
+[17 DOSNP - Testimonials](#_Toc122100489)
 
-[18 DOSNP - Key Contacts 110](#_Toc122100493)
+[18 DOSNP - Key Contacts](#_Toc122100493)
 
-[19 DOSNP - Thumbnail Carousel 118](#_Toc122100497)
+[19 DOSNP - Thumbnail Carousel](#_Toc122100497)
 
-[20 DOSNP - Multi Layout Editor 127](#_Toc122100501)
+[20 DOSNP - Multi Layout Editor](#_Toc122100501)
 
-[21 DOSNP - Render HTML 133](#_Toc122100504)
+[21 DOSNP - Render HTML](#_Toc122100504)
 
-[22 DOSNP - Events Calendar 139](#_Toc122100508)
+[22 DOSNP - Events Calendar](#_Toc122100508)
 
-[23 DOSNP - Extension 149](#_Toc122100516)
+[23 DOSNP - Extension](#_Toc122100516)
 
-[24 DOSNP - Repository 152](#_Toc122100520)
+[24 DOSNP - Repository](#_Toc122100520)
 
-[25 DOSNP – Featured Content 159](#_Toc122100524)
+[25 DOSNP – Featured Content](#_Toc122100524)
 
-[26 DOSNP – My Favorites 162](#_Toc122100528)
+[26 DOSNP – My Favorites](#_Toc122100528)
 
-[27 Clear the Cache 168](#_Toc122100532)
+[27 Clear the Cache](#_Toc122100532)
 
 # 1. Overview
 
