@@ -430,3 +430,181 @@ Edit the site page ([refer how to edit a page](#_How_to_Edit)) and add DOSNP - C
 - Item details will be saved into the list.
 
 ![image](https://user-images.githubusercontent.com/120722410/208678990-99eb75f8-88b8-4fb0-a25e-d85acd51184d.png)
+
+#### 8.3.1.2 Retrieve data from List
+
+- Click on edit web part ([refer how to edit a web part](#_How_to_Edit_1)). Web part property panel will be opened.
+
+![image](https://user-images.githubusercontent.com/120722410/208831023-2fc717f4-532f-41dd-b192-7dd201b2a402.png)
+
+- Select data source as List and enter Web Part Key (This is the value mentioned while adding a new item into the list) and click on Next button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208831080-87496f0c-3649-4a3a-b75f-2e1545ee2b09.png)
+
+- Configure other web part properties as shown below and click on apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/208831140-58c5b296-e8b7-43e6-b903-43a2bc406b19.png)
+
+- Images from DOSNP-Carousel list with Web Part Key mentioned above will start appearing in the carousel.
+- Save the page and publish the page.
+
+#### 8.3.1.3 Configure from Library
+
+- Edit the web part and select Library as the selected data source and enter Library Relative Path. This relative path can be any library path with images.
+
+![image](https://user-images.githubusercontent.com/120722410/208831347-3689ae81-a251-4c6c-a1a0-c8b5cb4329f8.png)
+
+- Configure the other web part properties as shown below and click on apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/208831416-b9d955e1-aa21-414b-b9fc-f406308a548a.png)
+
+- Images from the above Library Relative Path will start appearing in the carousel.
+- Save and publish the page.
+
+### 8.3.2 Configure from Properties
+
+- Edit the web part and select Properties as selected data source and click on Configure Data button.
+
+![image](https://user-images.githubusercontent.com/120722410/208831622-d76c4d00-51d9-4145-bd5a-2bcaaca0cb46.png)
+
+- A new web part property panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208831676-a13fb45e-1ecd-4881-90f3-49466fa7afb0.png)
+
+- Enter Title, Description, Navigation URL, Sort Order and select image by clicking on select image button.
+- Make sure Is Active is checked to display the item in carousel, otherwise the item won't be displayed.
+- Make sure Open in New Tab is checked to open the link in new tab.
+- To add a new item detail, click on + button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208831716-51f854b4-987f-4e79-ae33-2b397672a33e.png)
+
+- A new empty row will be added as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208831762-9126e8d7-ddf8-4557-aa6b-a2c0f76266e7.png)
+
+- Enter all the details and click on Save button.
+
+![image](https://user-images.githubusercontent.com/120722410/208831803-1ba0c892-8df9-4e36-8953-ac4369066e78.png)
+
+- Configure other web part properties as shown below and click on apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/208831848-44675931-718a-4565-8f28-844493b00199.png)
+
+- Save the page and publish it.
+
+## 8.4 Image specifications
+
+- Image width: Auto
+- Image height: Default value is 450 px. This can be adjusted using web part properties.
+
+# 9. DOSNP - Call to Action
+
+## 9.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 9.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **Select webpart type** | Select the webpart type to configure preferable webpart | - Submit Idea<br> - Subscriptions<br> - Scroll | Three type of web parts can be configured using a single web part |
+| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value |
+| **List Name** | Specify the list name to save submitted ideas or subscription details | - For webpart type **'** Submit Idea **'** Default value is ' **DOSNP-CallToAction'.**<br> - For webpart type **'** Subscriptions **'** Default value is ' **DOSNP-EmailSubscribers'.** | This is a read only field |
+| **Header Message** | Specify a header message to display on top of the image | Any string value |
+| **Button Name** | Specify button display text | Any string value | Default value is **Submit** |
+| **Email Template Key** | Specify the email template used to send emails | Default value is **'Home\_CallToAction'** |
+| **Success Message** | Specify the success message to display after submitting the idea | Default value is "The idea has been submitted successfully". |
+| **Click here to Select Image** | Select the relevant image to display |
+| **Button Horizontal Position** | Specifies the submit button horizontal position | - Left<br> - Right<br> - Center | Default value is Center |
+| **Button Vertical Position** | Specifies the submit button vertical position | - Top<br> - Bottom<br> - Center | Default value is Center |
+| **Submit Button Text Color** | Specifies the submit button text color |
+| **Submit Button Background Color** | Specifies the submit button background color |
+| **Scroll Image URL** | Specifies image url to display the image to scroll |
+| **Selector** | Specify selector to scroll the image |
+| **Image Position** | Specify Image position to display | - Left<br> - Right<br> - Center | Default value is Center |
+| **Enable Target Audience** | Specify if target audience needs to be enabled | - True<br> - False
+| **Type of audience target** | Specify target audience type |- Security Group<br> - Office Location| Target Audience can be enabled based on Security group or office location. |
+| **Security Group Details (separated by semicolon)** | Name of the groups that needs to be targeted | |Separated by semicolon |
+| **Location Details (separated by semicolon)** | Name of the location that needs to be targeted | | Separated by semicolon |
+
+## 9.3 Configure DOSNP - Call to Action
+
+Edit the site page ([refer how to edit a page](#_How_to_Edit)) and add **DOSNP - Call to Action** web part (refer [how to add a web part](#_How_to_Add)) to the page. This can be configured as three different type of web parts.
+
+- Submit Idea
+- Subscriptions
+- Scroll
+
+### 9.3.1 Configure Submit Idea
+
+- Edit the DOSNP - Call to Action web part.
+
+![image](https://user-images.githubusercontent.com/120722410/208839273-8722daa2-f132-4a87-bb8c-cb729dc5b280.png)
+
+- Web part property panel will be opened. Enter all the details.
+
+![image](https://user-images.githubusercontent.com/120722410/208839314-f795b335-7aa5-4b82-87de-41b632e559b3.png)
+
+- Select web part type as Submit Idea.
+- Enter Header Message, Button Name, Email Template Key, Success Message properties as shown above.
+- Click on "Click here to select image" button to select image.
+- Select Button Horizontal Position, Button Vertical Position, Submit Button Text Color, Submit Button Background Color.
+- Click on Apply button.
+- Save and publish the page.
+
+### 9.3.2 Configure Subscriptions
+
+- Edit the DOSNP - Call to Action web part. Web part property panel will be opened as shown below.
+- Select Subscriptions as web part type.
+- Enter Web Part Key and click on Apply button as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208839454-960fb2d7-9407-420b-b167-769110f6f0cf.png)
+
+- Save and publish the page.
+- Subscription's icon will be displayed on the page as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/208840480-07c36784-8568-4c8e-a2b2-c7417594960e.png)
+
+# 10. DOSNP - New Hire
+
+## 10.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 10.2 Properties
+ 
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **Select Data Source** | Select the data source to display New Hire items | - List<br> - Service<br> - JSON | New Hire items can be displayed from any selected data source |
+| **List Name** | Specify the list name to display New Hire items | Default value is ' **DOSNP-NewHire'** | This is a read only field and applicable only if the data source is **List** |
+| **Web Part Key** | Specify web part key to retrieve filtered items from List | Any String value | Applicable only if the data source is a **List** |
+| **Service Type** | Specify Service Type to get New Hire items | - Location<br> - Manager | Applicable only if the data source is **Service** |
+| **Enter Location Name** | Specify location name to get New Hire items | Any String value | Applicable only if the data source is **Service** |
+| **Enter Number of Days** | Specify number of days to retrieve data from past days | Integer value | Ex: 60. This will get the New Hires from past 60 days |
+| **Enter Manager ID** | Specify manager id to get New Hires under a user | Integer value |
+| **JSON File Path** | Specify JSON file path to get New Hire items | File path |
+| **Number of Items to Display** | Specify the item limit display in New Hires | Any Integer value |
+| **Data To Be Displayed** | Select checkboxes to display data | - Email<br> - Location<br> - Joining Date
+| **Date Format** | Specifies the date format | Default value is ' **DD MMMM YYYY'** | A valid Date Format should be in UPPER CASE only |
+| **Display Mode** | Specifies how New Hires should displayed | - Carousel<br> - List | - Select Carousel to display New Hires in Carousel Mode.<br> - Select List to display New Hires in List Mode. |
+| **Interval in Milliseconds** | Specify the amount of time to delay between automatically cycling an item | Default value is 3 seconds |
+| **Show Indicators** | Specifies if set of slide position indicators is shown | - True<br> - False | Default value is True |
+| **Chevron Icon Display Type** | Specifies the buttons container display mode | - Block<br> - Hidden | Default value is Block |
+
+## 10.3 Configure DOSNP - New Hire
+
+Edit the site page and add **DOSNP - New Hire** web part to the page. This can be configured from 3 different data sources.
+
+- List
+- Service
+- JSON
