@@ -4,7 +4,7 @@
 
 [1 Overview](#user-content-1-overview)
 
-[2 How to Edit a Page 5](#_Toc122100443)
+[2 How to Edit a Page]
 
 [3 How to Add a Web Part 5](#_Toc122100444)
 
