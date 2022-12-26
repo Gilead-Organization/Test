@@ -2,59 +2,59 @@
 
 ## Contents
 
-[1 Overview](#_Toc122100442)
+[1. Overview](#user-content-1-overview)
 
-[2 How to Edit a Page](#_Toc122100443)
+[2. How to Edit a Page](#user-content-2-how-to-edit-a-page)
 
-[3 How to Add a Web Part](#_Toc122100444)
+[3. How to Add a Web Part](#user-content-3-how-to-add-a-web-part)
 
-[4 How to Edit a Web Part](#_Toc122100445)
+[4. How to Edit a Web Part](#user-content-4-how-to-edit-a-web-part)
 
-[5 How to Publish a Page](#_Toc122100446)
+[5. How to Publish a Page](#user-content-5-how-to-publish-a-page)
 
-[6 How to Navigate to a List](#_Toc122100447)
+[6. How to Navigate to a List](#user-content-6-how-to-navigate-to-a-list)
 
-[7 DOSNP – Dashboard](#user-content-7-dosnp--dashboard)
+[7. DOSNP - Dashboard](#user-content-7-dosnp--dashboard)
 
-[8 DOSNP - Carousel](#_Toc122100452)
+[8. DOSNP - Carousel](#user-content-8-dosnp---carousel)
 
-[9 DOSNP - Call to Action](#_Toc122100457)
+[9. DOSNP - Call to Action](#user-content-9-dosnp---call-to-action)
 
-[10 DOSNP - New Hire](#_Toc122100461)
+[10. DOSNP - New Hire](#user-content-10-dosnp---new-hire)
 
-[11 DOSNP - Notice Board](#_Toc122100465)
+[11. DOSNP - Notice Board](#user-content-11-dosnp---notice-board)
 
-[12 DOSNP - Featured Links](#_Toc122100469)
+[12. DOSNP - Featured Links](#user-content-12-dosnp---featured-links)
 
-[13 DOSNP - Breadcrumb](#_Toc122100473)
+[13. DOSNP - Breadcrumb](#user-content-13-dosnp---breadcrumb)
 
-[14 DOSNP - Navigation](#_Toc122100477)
+[14. DOSNP - Navigation](#user-content-14-dosnp---navigation)
 
-[15 DOSNP - Accordion](#_Toc122100481)
+[15. DOSNP - Accordion](#user-content-15-dosnp---accordion)
 
-[16 DOSNP - Document Card](#_Toc122100485)
+[16. DOSNP - Document Card](#user-content-16-dosnp---document-card)
 
-[17 DOSNP - Testimonials](#_Toc122100489)
+[17. DOSNP - Testimonials](#user-content-17-dosnp---testimonials)
 
-[18 DOSNP - Key Contacts](#_Toc122100493)
+[18. DOSNP - Key Contacts](#user-content-18-dosnp---key-contacts)
 
-[19 DOSNP - Thumbnail Carousel](#_Toc122100497)
+[19. DOSNP - Thumbnail Carousel](#user-content-19-dosnp---thumbnail-carousel)
 
-[20 DOSNP - Multi Layout Editor](#_Toc122100501)
+[20. DOSNP - Multi Layout Editor](#user-content-20-dosnp---multi-layout-editor)
 
-[21 DOSNP - Render HTML](#_Toc122100504)
+[21. DOSNP - Render HTML](#user-content-21-dosnp---render-html)
 
-[22 DOSNP - Events Calendar](#_Toc122100508)
+[22. DOSNP - Events Calendar](#user-content-22-dosnp---events-calendar)
 
-[23 DOSNP - Extension](#_Toc122100516)
+[23. DOSNP - Extension](#user-content-23-dosnp---extension)
 
-[24 DOSNP - Repository](#_Toc122100520)
+[24. DOSNP - Repository](#user-content-24-dosnp---repository)
 
-[25 DOSNP – Featured Content](#_Toc122100524)
+[25. DOSNP – Featured Content](#user-content-25-dosnp--featured-content)
 
-[26 DOSNP – My Favorites](#_Toc122100528)
+[26. DOSNP – My Favorites](#user-content-26-dosnp--my-favorites)
 
-[27 Clear the Cache](#_Toc122100532)
+[27. Clear the Cache](#user-content-27-clear-the-cache)
 
 # 1. Overview
 
@@ -645,7 +645,7 @@ Configure below web part tasks using **DOSNP - Dashboard** web part. Please refe
 
 ![image](https://user-images.githubusercontent.com/120722410/208896910-71f8a2d0-cd55-433a-accc-1ab2fc058824.png)
 
-# 12.DOSNP - Featured Links
+# 12. DOSNP - Featured Links
 
 ## 12.1 Prerequisites
 
@@ -890,7 +890,7 @@ Configure below web part tasks using **DOSNP - Dashboard** web part. Please refe
 
 # 14. DOSNP - Navigation
 
-## 14.1 prerequisites
+## 14.1 Prerequisites
 
 Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
 
@@ -1579,3 +1579,568 @@ Edit the site page and add DOSNP - Thumbnail web part to the page. This web part
 ![image](https://user-images.githubusercontent.com/120722410/208951579-691aa0a5-8673-46c5-a367-f00067b0a2bf.png)
 
 - Save and publish the page.
+
+# 20. DOSNP - Multi Layout Editor
+
+## 20.1 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **Layout** | Specify the content display mode | - One Column<br> - Two Column | - Select one column to display content in one column layout.<br> - Select two column to display content in two column layout. |
+| **Title color** | Specify the web part title color | | |
+| **Webpart width (in px)** | Specifies width of the webpart | | |
+| **Image Alignment** | Specify image alignment type | - None<br> - Left<br> - Right | - Select None if no image is required<br> - Select Left to align image to left<br> - Select Right to align image to right |
+| **Click here to upload image** | Specify background image | | Can upload image from within site or local computer |
+| **Image Width in %** | Specifies width of the image | | |
+| **Align webpart at the center (When used in full width section)** | Specify webpart alignment at the center | - True<br> - False | Default value is False |
+| **Section Background Color** | Specify the webpart background color | | |
+
+## 20.2 Configure DOSNP - Multi Layout Editor
+
+Edit the site page and add DOSNP - Multi Layout Editor web part to the page. This web part can be configured in two ways
+
+- One Column
+- Two Column
+
+### 20.2.1 One Column Layout
+
+- Edit the web part
+
+![image](https://user-images.githubusercontent.com/120722410/209547973-d4a5da38-392d-417d-ab95-5c6908a891ea.png)
+
+- Enter text in the web part
+
+![image](https://user-images.githubusercontent.com/120722410/209548024-a1f2dd1b-01e0-4f78-8d5a-613c15e38c52.png)
+
+- Edit the web part as shown below. A new web part property panel will be opened.
+
+![image](https://user-images.githubusercontent.com/120722410/209548053-aede0ef9-7cb5-43b5-8a1d-f5c128361cff.png)
+
+- Select Layout type as One Column.
+- Enter Title, Title color and Background Color.
+- Select Image alignment.
+- Click on "click here to upload image" and select the required image.
+- Enter Image Width in percentage.
+- Select Align webpart at the center when full width section is used.
+- Click on apply button.
+- DOSNP Multi layout editor web part with selected single layout will be displayed as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209548103-15a0627f-4cda-4974-bdfd-e4f2bb935962.png)
+
+- Save and publish the page.
+
+### 20.2.2 Two Column Layout
+
+- Edit the web part as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209548226-a911054d-21f6-41ed-9b9c-7cbe91e1d610.png)
+
+- A new property panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209548244-4f3278ba-41e7-4f84-a903-48888fcb8e43.png)
+
+- Select Layout type as Two Column.
+- Enter Title and Title color.
+- Click on "click here to upload image" and select the required image.
+- Select Align webpart at the center when full width section is used.
+- Click on apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/209548297-88db5f43-3fb9-4b9b-b4b6-0382efe478cd.png)
+
+- Enter text in both columns as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209548341-a393d0a2-ad4c-45bf-8a28-713976bcfb91.png)
+
+- DOSNP Multi layout editor web part with selected Two column layout will be displayed as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209548414-8c76107f-e95b-4d18-bf97-1ff7cbc836eb.png)
+
+- Save and publish the page.
+
+# 21. DOSNP - Render HTML
+
+## 21.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 21.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **List Name** | Specify the list name to display items | Default value is **'DOSNP-RenderHTML'** | This is a read only field and applicable only if the data source is **List** |
+| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value | |
+| **Align webpart at the center (When used in full width section)** | Specify webpart alignment at the center | - True<br> - False | Default value is False |
+| **Webpart width (in px)** | Specifies width of the webpart | | |
+| **Background color and opacity** | Specify background color and opacity | | |
+| **Enable Scroll** | Enables to scroll the item | - True<br> - False | Default value is False |
+| **Scroll Image URL** | Specifies image url to display the image to scroll | | |
+| **Selector** | Specify selector to scroll the image | | |
+
+## 21.3 Configure DOSNP - Render HTML
+
+Edit the site page and add DOSNP - RenderHTML web part to the page. This web part can be configured using a List.
+
+### 21.3.1 Configure from List
+
+#### 21.3.1.1 Add data to list
+
+- Navigate to DOSNP-RenderHTML list ([refer how to navigate to a list](#_How_to_Navigate)).
+- A new page will be opened as below. Click on **New** button.
+
+![image](https://user-images.githubusercontent.com/120722410/209550240-76e4aea3-c2c2-4b7d-953a-b569a3832683.png)
+
+- A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209550265-4a223c6a-2962-44e3-b449-0cdb1959d757.png)
+
+- Enter **Title** , **Description**** Rich Text** values.
+- Enter **Background**** Image URL**. This image will be displayed in the carousel.
+- Enter web part key. **Make sure to configure this value in web part properties.**
+
+![image](https://user-images.githubusercontent.com/120722410/209550309-9e318f56-665b-4b3f-8b3d-5217e686a419.png)
+
+- Click on Save button.
+- Item details will be saved into the list.
+
+![image](https://user-images.githubusercontent.com/120722410/209550391-d37121ab-6622-4eae-9dee-3d5fad457f26.png)
+
+#### 21.3.1.2 Retrieve data from list
+
+- Click on edit web part. Web part property panel will be opened.
+
+![image](https://user-images.githubusercontent.com/120722410/209550533-7c4299dc-6480-4481-a347-5310f34c5dea.png)
+
+![image](https://user-images.githubusercontent.com/120722410/209550556-8e87c374-f2ab-43da-9a27-622d5d24a916.png)
+
+- Enter Title and web part key values.
+- Select Webpart Alignment at the center.
+- Select background color.
+- Click on apply button.
+- Select Enable Scroll to scroll the webpart images.
+- Items from DOSNP-HTML data list with above mentioned web part key will be displayed.
+
+![image](https://user-images.githubusercontent.com/120722410/209550639-a79ee09c-b2bb-4e26-b8fb-0849ea61e391.png)
+
+- Save and publish the page.
+
+# 22. DOSNP - Events Calendar
+
+## 22.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+4. Add configurations
+
+## 22.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Webpart Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
+| **List Name** | Specify the list name to display event items | | |
+| **Web Part Key** | Specify web part key for registration | Any string value | Visible when registrations are enabled |
+| **Event Content Type** | Specify the content type name | Any string value | |
+| **Event Category** | Specify the event category | | |
+| **Enable Registration** | To enable registrations feature | - True<br> - False | Default value is False |
+| **Registration email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for registration email | | |
+| **UnRegistration email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for unregistration email | | |
+| **Enable registration waitlist** | Enables or disables waitlist feature | - True<br> - False | Visible only when registrations are enabled |
+| **Waitlist email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for adding into the waitlist | | |
+| **Remove from waitlist email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for removing from waitlist | | |
+| **Waitlist confirmation email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for confirmation of the waitlist | | |
+| **Enable Presenters** | Enables or disables presenter feature | - True<br> - False | Visible only when registrations are enabled |
+| **Presenter Register email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for presenter register email | | |
+| **Presenter UnRegister email key** | Specifies the email key (from " **DOSNP-EmailTemplates**" list) used for presenter unregister email | | |
+| **Show view all link** | Enables or disables the view all link | | |
+| **View all link URL** | Specifies the view all link URL | | |
+| **Enable Add Item** | Enables add item features in the web part | | |
+| **Enable Target Audience** | Enables or disables Target audience | - True<br> - False | |
+| **Type of audience target** | Specifies type of targeting | - Security Group<br> - Office Location | |
+| **Security group details** | Name of the groups that needs to be targeted | | Separate by semicolon |
+| **Location details** | Name of the location that needs to be targeted | | Separated by semicolon |
+| **Number of items to display** | Specify the item limit | Any integer value | |
+| **Date Format** | Specifies the date format | Default value is ' **DD MMMM YYYY'** | A valid Date Format should be in UPPER CASE only |
+| **Webpart width** | Specifies the webpart width | | |
+| **Webpart Display Type** | Specify the webpart display type | - List<br> - Filmstrip<br> - Carousel | |
+| **Interval in milliseconds** | Specify the amount of time to delay between automatically cycling an item | Default value is 5 seconds | |
+| **Number of items to be grouped** | Specify the item limit | Any integer value | |
+| **Item Display Type** | Specify the item display type | - Compact<br> - Expanded | |
+
+## 22.3 How to Create Events Calendar List
+
+- Go to Dashboard webpart.
+- Select DOSNP – Events Calendar Webpart.
+- Click on **'Add Configuration'** checkbox and edit the configuration as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209551693-0662166c-c02b-4abf-bbed-5f8df5de6591.png)
+
+- Enter Event Calendar List Name and click on Save button.
+
+![image](https://user-images.githubusercontent.com/120722410/209551740-2c30cc65-7806-41d6-9a4f-4b711901786d.png)
+
+- Click on Configure Webpart.
+- Refresh the page and select Create List with Content Type checkbox.
+- Click on Configure Webpart, then the configured list will be created.
+
+![image](https://user-images.githubusercontent.com/120722410/209551768-95682a23-d919-4f8d-81b4-b844de2e50a5.png)
+
+## 22.4 Configure DOSNP - Events Calendar
+
+- Edit the site page and add DOSNP - Events Calendar webpart to the page.
+- Edit the web part.
+
+![image](https://user-images.githubusercontent.com/120722410/209551844-8ff8bcfc-b02d-4c11-98aa-98b92b8e3637.png)
+
+- A new panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209551869-cf38ca61-73cf-4675-8778-46d0efe1bce8.png)
+
+- Enter Web Part Title, List Name, Event Content Type, Event Category, Web Part Key, Registration email Key, UnRegistration Email key, Waitlist email key, Remove from waitlist email list key, Waitlist confirmation email key, Presenter Register email key, Presenter UnRegister email key, View all link URL.
+- Select Enable Registration to enable registration feature.
+- Select Enable Registration waitlist to enable waitlist feature.
+- Select Enable Presenters to enable presenter feature.
+- Select show view all link to display view all link in the web part.
+- Enable add item to display add new item link in the web part.
+- Enable target audience if required.
+- Select type of audience target if target audience is enabled.
+- Enter Security group details separated by semicolon if target audience is enabled.
+- Enter location details separated by semicolon if target audience is enabled and click on Next button.
+
+![image](https://user-images.githubusercontent.com/120722410/209551897-a40f9ada-9aff-45a1-9fc7-d094af9619df.png)
+
+- Select the other properties as shown below based on the requirement.
+
+![image](https://user-images.githubusercontent.com/120722410/209551933-170cb9cd-3ade-440b-80a5-22431c91108e.png)
+
+- Click on Apply button.
+- Events from "DOSNPEventsCalendar123 " with Event content type will be displayed in the web part.
+
+![image](https://user-images.githubusercontent.com/120722410/209551957-4e2d9d1e-8a32-4970-8941-85e0fa017989.png)
+
+## 22.5 Registration Process
+
+There are two ways to register for DOSNP – Event Calendar.
+
+- Attendee
+- Presenter
+
+### 22.5.1 Register as Attendee
+
+![image](https://user-images.githubusercontent.com/120722410/209552050-d039d6b6-6e99-4ee9-95d8-e45cd738b84c.png)
+
+- When Register as Attendee is enabled Email Notification will be received to the registered member as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209552067-0a7b24cf-531a-4f1b-a486-a4437f0496a5.png)
+
+### 22.5.2 Register as Presenter
+
+![image](https://user-images.githubusercontent.com/120722410/209552080-84ba410d-631b-47b1-a305-ed3762c57d40.png)
+
+- When Register as Presentee is enabled Email Notification will be received to the registered presenter member as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209552113-5dd4368c-54ed-46a6-8bfa-3efeab5cbe75.png)
+
+# 23. DOSNP - Extension
+
+## 23.1 Configurations
+
+| **Title** | **Key** | **Type** | **Specifications/Comments** |
+| --- | --- | --- | --- |
+| **Footer Content Owner** | FooterContentOwner | Text | |
+| **Footer Owner Delve** | FooterOwnerDelve | Text | |
+| **Footer Powered By** | FooterPoweredByLink | Text | |
+| **Navigation Source** | NavigationSource | Dropdown | |
+| **Term ID** | TermID | Text | NavigationSource must be Metadata to show TermID |
+| **Term Set ID** | TermSetID | Text | NavigationSource must be Metadata to show TermSetID |
+| **Enable Header** | EnableHeader | Boolean | |
+| **Header Position** | HeaderPosition | Dropdown | EnableHeader must be true to show HeaderPosition |
+| **Enable Apps On Header** | EnableAppsOnHeader | Boolean | EnableHeader must be true to show HeaderPosition |
+| **Enable Admin Page Footer** | EnableAdminPageFooter | Boolean | |
+| **Admin Page URL** | AdminPageURL | Text | EnableAdminPageFooter must be true to show AdminPageURL |
+| **Hide Footer Links (Separated by semicolon)** | HideFooterLinks | Text | |
+| **Category Details (Separated by semicolon)** | FeedbackCategory | Text | Separated by Semicolon |
+| **Enable Apps On Footer(true/false)** | EnableAppsOnFooter | Boolean | |
+
+## 23.2 Edit Configurations from Dashboard
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create List with Content Type
+2. Add Configuration
+
+## 23.3 Edit Configurations List
+
+- Click on setting icon and then click on site contents as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209552661-393b2941-ad6e-42fb-b920-b1d8aab32913.png)
+
+- Select DOSNP-Configurations list as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209552678-fffee455-74ab-493b-bf56-c93388392c6d.png)
+
+- A new page will be opened as shown below. Filter items using web part title.
+
+![image](https://user-images.githubusercontent.com/120722410/209552718-d4da0982-3711-457c-aa5f-e851f3f286d7.png)
+
+- Select DOSNP - Extension and click on apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/209552743-d56c354a-dc3a-436e-b080-97d12731460f.png)
+
+- All the DOSNP - Extension items will be filtered.
+- Select the item which need to be updated and edit it as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209552761-66c13eeb-9830-48c6-a4fd-1f819f035461.png)
+
+- Edit the required values and save.
+
+# 24. DOSNP - Repository
+
+## 24.1 Prerequisites
+
+- Make sure "DOSNP-Repository" list is configured.
+- DOSNP-Featured Content web part will be used to load the content below the tab.
+
+## 24.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Web Part Title** | Specify the web part title | Any String value | |
+| **List Name** | Specify the list name to display the data | Default value is 'DOSNP-Repository' | |
+| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value | |
+| **Data Grouped By** | Data will be grouped based on the specified value | - Category<br> - Published Date<br> - Title | |
+| **Send Dynamic Data** | This will Send Dynamic Data to Featured content web part on the page | - True<br> - False | Select 'True' in case of sending data to featured content web part is required. |
+| **Select Data to be Displayed** | Select the data to display in a format | - Link<br> - Presentations<br> - Video | Check or Uncheck the boxes if the data needs to be displayed or not. |
+| **Enable Target Audience** | Specify if target audience needs to be enabled | - True<br> - False | |
+| **Type of audience target** | Specify target audience type | - Security Group<br> - Office Location | Target Audience can be enabled based on Security group or office location. |
+| **Security Group Details (separated by semicolon)** | Name of the groups that needs to be targeted | | Separated by semicolon |
+| **Location Details (separated by semicolon)** | Name of the location that needs to be targeted | | Separated by semicolon |
+| **Data Display Type** | Specify how to display the tabs | - Pivot<br> - Accordion | |
+| **Accordion View Type** | Select accordion view type | - All Expanded<br> - All Collapsed<br> - Expand Selected Index | - Select All Expand to display the content in expand mode.<br> - Select Collapsed to display the content in collapsed mode.<br> - Select "Expand Selected Index" to expand a particular section. |
+| **Default Accordion to expand** | Specify default value to expand | | |
+| **Align webpart at the center (when used in full width section)** | Specify this to align the web part to center | | Only when used in full width section. |
+| **Web Part Width** | Specify the web part width | | |
+| **Tabs Color** | Specify the tab color | | |
+| **Tabs Font Color** | Specify the tab font color | | |
+| **Web Part Background Color** | Specify the web part background color | | |
+| **Section Background Color** | Specify the section background color | | |
+
+## 24.3 Configure DOSNP - Repository
+
+### 24.3.1 Add data to list:
+
+- Navigate to DOSNP-Repository list ([refer how to navigate to a list](#_How_to_Navigate)).
+- A new page will be opened as below. Click on **New** button.
+
+![image](https://user-images.githubusercontent.com/120722410/209554794-4d2c19f9-ed6d-4b15-be71-51ac7374d338.png)
+
+- A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209554817-ee74f514-3d44-4419-945b-55fd2f38ee6c.png)
+
+- Enter **Title** , **Video URL** , **Presentation URL** , **Published Date** values.
+- Select Is Active to display the items. Else item won't be displayed.
+- Enter **Category Details** , **GA URL, Web Part Key, Description Rich Text and Sort Order.**
+- Please note the **Web Part Key.** This key needs to be configured in the **DOSNP-Repository** web part properties
+- **GA URL** will be a page URL with some content. This page content will be displayed under the tab.
+
+![image](https://user-images.githubusercontent.com/120722410/209554847-7e66d315-8b90-4825-9346-e2655ec54961.png)
+
+- Click on Save button.
+- Item details will be saved into the list.
+
+![image](https://user-images.githubusercontent.com/120722410/209554877-43034fcc-412f-4702-bcbc-c021f0439a4e.png)
+
+### 24.3.2 Retrieve data from List
+
+- Edit the site page and add DOSNP - Repository web part to the page.
+- Edit the web part.
+- A new panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209554962-7211f339-dffc-43d2-b4bc-8fa5057fadc0.png)
+
+- Make sure List Name property is updated with "DOSPN-Repository".
+- Provide the Web Part Key value. Make sure you provide the same value which you saved in the list above.
+- Select the Data Grouped By. Data will be grouped based on the selected value from the list.
+- Select Send Dynamic Data to 'True'.
+- Click on 'Apply' button.
+- Data from 'DOSNP-Repository' list will be displayed as below.
+- All the list item Title's will be tabs and The GA URL Page content will be displayed under the tab.
+- The below image is an example of grouping the data based on Title.
+
+![image](https://user-images.githubusercontent.com/120722410/209554999-48bac6be-f3b6-49e7-80ab-93bf94f31eb6.png)
+
+- The below image is an example of grouping data by Publishing date.
+- Select the **Data Grouped By** property as Published date in DOSNP-Repository web part properties.
+
+![image](https://user-images.githubusercontent.com/120722410/209555024-39347563-f07a-47bf-8137-48209c6c58d3.png)
+
+- Configure DOSNP – Featured Content web part below the DOSNP - Repository web part as explained in the Featured Content Section.
+
+# 25. DOSNP – Featured Content
+
+## 25.1 Prerequisites
+
+- DOSNP – Featured Content web part will go in association with Repository component and also with Featured Links component.
+- This web part will receive the data from DOSNP - Repository and DOSNP - Featured Links components and displays the given page url content into the featured content   web part.
+
+## 25.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Web Part Title** | Specify the web part title | Any String value | |
+| **Get dynamic data** | Specifies to get the data dynamically from repository or featured links components | - True<br> - False | **Default value is True** |
+| **Connect to source** | Specify the connection to source | - DOSNP – Repository<br> - DOSNP – Featured Links | - Select DOSNP – Repository if the data needs to be retrieved from repository component.<br> - Select DOSNP – Featured Links if the data needs to be retrieved from featured links component. |
+| **DOSNP – Repository's properties** | Specify the content from repository's properties | | Default value is **Send Featured Content** |
+| **Send Featured Content's properties** | Specify the featured content's properties | | Default value is **pageURL** |
+| **DOSNP – Featured Links's properties** | Specify the content from featured links's properties | | Default value is **Send Featured Content** |
+| **Enable default SP Ribbon** | Enables or Disables default sp ribbon | - True<br> - False | |
+| **Width of the iframe** | Specify width of the iframe in px | | |
+| **Height of the iframe** | Specify height of the iframe in px | | |
+| **Show page in iFrame** | | - True<br> - False | Available only when Get dynamic data is false. |
+| **Page URL** | Specify the page URL to display the content | | |
+| **Title** | Specify the title | Any String value | |
+| **Description** | Specify the title description | Any String value | |
+| **Navigation Button Text** | Specify navigation button text to display | Any String value | |
+| **Navigation URL** | Specify navigation url | | Navigate to particular page |
+| **Enable Target Audience** | Specify if target audience needs to be enabled | - True<br> - False | |
+| **Type of audience target** | Specify target audience type | - Security Group<br> - Office Location | Target Audience can be enabled based on Security group or office location. |
+| **Security Group Details (separated by semicolon)** | Name of the groups that needs to be targeted | | Separated by semicolon |
+| **Location Details (separated by semicolon)** | Name of the location that needs to be targeted | | Separated by semicolon |
+
+## 25.3 Configure DOSNP – Featured Content
+
+- Add DOSNP - Featured Content web part below to DOSNP - Repository web part.
+- Edit the DOSNP - Featured Content web part.
+- A new panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209556088-98c5c2ad-50de-4260-9c3d-1a6da4740db6.png)
+
+- Do not provide any **Web Part Title.**
+- Select Get dynamic data to True.
+- Select **Connect to source** value as **DOSNP-Repository.**
+- Select **DOSNP - Repository's properties** as **Send Featured Content.**
+- Select **Send Featured Content's properties** as **pageURL** if required.
+- Select Enable default SP Ribbon to True if required.
+- Provide Width and Height based on the requirement.
+- Enable Target Audience based on the requirement.
+- Click on Apply button.
+
+![image](https://user-images.githubusercontent.com/120722410/209556112-450429b1-e558-46e8-b523-b885a97b4c9c.png)
+
+# 26. DOSNP – My Favorites
+
+## 26.1 Prerequisites
+
+Configure below web part tasks using **DOSNP - Dashboard** web part. Please refer [**Configure Web Part Tasks**](#_Configure_Web_Part) section in DOSNP - Dashboard web part.
+
+1. Create Fields
+2. Create Content Type
+3. Create List with Content Type
+
+## 26.2 Properties
+
+| **Webpart Properties** | **Description** | **Values/Specifications** | **Comments** |
+| --- | --- | --- | --- |
+| **Title** | Specify the web part title | Any String value | |
+| **Quick Links List Name** | Specify the quick links list name | Default value is 'DOSNP-QuickLinks' | |
+| **My Favorites Links List Name** | Specify the my favorites links list name | Default value is 'DOSNP-MyFavorites' | |
+| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value | |
+| **Enable Current Page as Favorites** | Enables or Disables page as favorites | - True<br> - False | |
+| **Layout** | Specify layout type | - List<br> - Filmstrip | |
+| **Select Link Type** | Specify link type | - Default Links<br> - Custom Links | |
+| **Number Of Items To Display** | Specify the item limit to display | Default value is 30 | |
+| **Show View All Link** | Enables or disables view all link | - True<br> - False | |
+| **Select View All Type** | Specify to display view all link | - Panel<br> - Page | Default value is Panel |
+| **Page URL** | Specify page URL to open view all link in a new page | | Once view all links is clicked, it redirects to a new page. |
+| **Enable Search** | Enable search option to search for specific item | - True<br> - False | |
+| **Enable Items as Favorites** | Enables or Disables items as favorites | - True<br> - False | |
+| **Enable Add New Links** | Enables or Disables add new links | - True<br> - False | Visible only when select link type is **'Custom Links'** |
+| **Enable Delete Favorite Links** | Enables or Disables delete favorite links | - True<br> - False | Visible only when select link type is **'Custom Links'** |
+
+## 26.3 Configure DOSNP – My Favorites
+
+### 26.3.1 Add data to list:
+
+- Navigate to DOSNP-MyFavorites list ([refer how to navigate to a list](#_How_to_Navigate)).
+- A new page will be opened as below. Click on **New** button.
+
+![image](https://user-images.githubusercontent.com/120722410/209556877-e6f9403c-2bc0-40cd-8409-9c66ccc99119.png)
+
+- A new panel will be opened as below.
+
+![image](https://user-images.githubusercontent.com/120722410/209556906-55d3c45a-b9fc-4fc8-b01a-14d2769b83c3.png)
+
+- Enter **Title** , **Webpart Title and User Details** values.
+- **GA URL** will be a page URL with some content. This page content will be displayed under the tab.
+- Select Is Favorite to display the items in MyFavorites webpart properties. Else item won't be displayed.
+- Please note the **Web Part Key.** This key needs to be configured in the **DOSNP-MyFavorites** web part properties.
+- Enter Reference Item Id and click on Save button.
+
+![image](https://user-images.githubusercontent.com/120722410/209556940-fdd3bacf-5794-45da-bea7-61a9bdcb0ee4.png)
+
+- Item details will be saved into the list.
+
+![image](https://user-images.githubusercontent.com/120722410/209557074-59ebd433-cbb3-4dbd-89d2-b1d342644d18.png)
+
+### 26.3.2 Retrieve data from List
+
+- Edit the site page and add DOSNP - MyFavorites web part to the page.
+- Edit the web part.
+- A new panel will be opened as shown below.
+
+![image](https://user-images.githubusercontent.com/120722410/209557168-5e21d2a3-02f4-4579-90cb-576dea2394e5.png)
+
+- Enter Title value.
+- Provide the Web Part Key value. Make sure you provide the same value which you saved in the list above.
+- Select Enable Current Page as Favorites if required.
+- Select Layout and Link Type.
+- Select Default Link Type to display the default links.
+- Select Custom Link Type to display the custom links.
+- Enter Number Of Items To Display value.
+- Enable Show View All Link and select View All Type.
+- Select View All Type as Panel to open in panel.
+- Select View All Type as Page to open in a new page.
+- Enable Search option if required.
+- Enable Items as Favorites if required.
+- Click on 'Apply' button.
+- Data from 'DOSNP-MyFavorites' list will be displayed as below.
+
+- When Layout is selected as List.
+
+![image](https://user-images.githubusercontent.com/120722410/209557202-e80fb64c-b3f7-4d03-bd80-20a4938c1903.png)
+
+- When Layout is selected as Filmstrip.
+
+![image](https://user-images.githubusercontent.com/120722410/209557221-e2c7f614-4403-4b61-8168-7933b0716dac.png)
+
+# 27. Clear the Cache
+
+If the data is not displayed in the webpart, please follow the below two steps :
+
+- Clearing the local cache
+- Clearing the cache from the list
+
+## 27.1 Clearing the Local Cache
+
+- Go to the Dashboard page and click the **Clear Local Storage** button.
+
+![image](https://user-images.githubusercontent.com/120722410/209557713-1dfb9e5f-312b-4c23-a378-2437fed522bd.png)
+
+## 27.2 Clearing the Cache from List
+
+- Then go to **DOSNP-DataConfigurations** list and delete the entries, if any, or refresh and delete them.
+
+![image](https://user-images.githubusercontent.com/120722410/209557738-86347db5-4b68-4714-8709-c9bb3be3af8d.png)
+
+- Go to the current page and refresh it.
+
+- In case of Termstore then clear both **Local Storage** and **List Cache.**
+
