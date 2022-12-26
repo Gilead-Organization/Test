@@ -14,47 +14,47 @@
 
 [6. How to Navigate to a List](#user-content-6-how-to-navigate-to-a-list)
 
-[7. DOSNP - Dashboard](#user-content-7-dosnp--dashboard)
+[7. DOSNP - Dashboard](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Dashboard.md)
 
-[8. DOSNP - Carousel](#user-content-8-dosnp---carousel)
+[8. DOSNP - Carousel](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Carousel.md)
 
-[9. DOSNP - Call to Action](#user-content-9-dosnp---call-to-action)
+[9. DOSNP - Call to Action](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Call%20to%20Action.md)
 
-[10. DOSNP - New Hire](#user-content-10-dosnp---new-hire)
+[10. DOSNP - New Hire](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20New%20Hire.md)
 
-[11. DOSNP - Notice Board](#user-content-11-dosnp---notice-board)
+[11. DOSNP - Notice Board](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Notice%20Board.md)
 
-[12. DOSNP - Featured Links](#user-content-12-dosnp---featured-links)
+[12. DOSNP - Featured Links](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Featured%20Links.md)
 
-[13. DOSNP - Breadcrumb](#user-content-13-dosnp---breadcrumb)
+[13. DOSNP - Breadcrumb](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Breadcrumb.md)
 
-[14. DOSNP - Navigation](#user-content-14-dosnp---navigation)
+[14. DOSNP - Navigation](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Navigation.md)
 
-[15. DOSNP - Accordion](#user-content-15-dosnp---accordion)
+[15. DOSNP - Accordion](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Accordion.md)
 
-[16. DOSNP - Document Card](#user-content-16-dosnp---document-card)
+[16. DOSNP - Document Card](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Document%20Card.md)
 
-[17. DOSNP - Testimonials](#user-content-17-dosnp---testimonials)
+[17. DOSNP - Testimonials](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Testimonials.md)
 
-[18. DOSNP - Key Contacts](#user-content-18-dosnp---key-contacts)
+[18. DOSNP - Key Contacts](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Key%20Contacts.md)
 
-[19. DOSNP - Thumbnail Carousel](#user-content-19-dosnp---thumbnail-carousel)
+[19. DOSNP - Thumbnail Carousel](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Thumbnail%20Carousel.md)
 
-[20. DOSNP - Multi Layout Editor](#user-content-20-dosnp---multi-layout-editor)
+[20. DOSNP - Multi Layout Editor](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Multi%20Layout%20Editor.md)
 
-[21. DOSNP - Render HTML](#user-content-21-dosnp---render-html)
+[21. DOSNP - Render HTML](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Render%20HTML.md)
 
-[22. DOSNP - Events Calendar](#user-content-22-dosnp---events-calendar)
+[22. DOSNP - Events Calendar](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Events%20Calendar.md)
 
-[23. DOSNP - Extension](#user-content-23-dosnp---extension)
+[23. DOSNP - Extension](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Extension.md)
 
-[24. DOSNP - Repository](#user-content-24-dosnp---repository)
+[24. DOSNP - Repository](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20-%20Repository.md)
 
-[25. DOSNP – Featured Content](#user-content-25-dosnp--featured-content)
+[25. DOSNP – Featured Content](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20%E2%80%93%20Featured%20Content.md)
 
-[26. DOSNP – My Favorites](#user-content-26-dosnp--my-favorites)
+[26. DOSNP – My Favorites](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/DOSNP%20%E2%80%93%20My%20Favorites.md)
 
-[27. Clear the Cache](#user-content-27-clear-the-cache)
+[27. Clear the Cache](https://github.com/Gilead-RND-DOSP/devsys.github.io/blob/main/Documentation/Clear%20the%20Cache.md)
 
 # 1. Overview
 
@@ -129,7 +129,7 @@ This document will help you in configuring all custom reusable components that a
 | --- | --- | --- | --- |
 | **Title** | Specifies the web part title | Any string value |
 | **Description** | Specifies the web part description | Any string value |
-| **Configure Links Data** | Specify all the links that needs to be displayed under super user tab |
+| **Configure Links Data** | Specify all the links that needs to be displayed under super user tab | | |
 
 ## 7.2 Configure DOSNP - Dashboard
 
@@ -381,21 +381,21 @@ Configure below web part tasks using **DOSNP - Dashboard** web part. Please refe
 | --- | --- | --- | --- |
 | **Title** | Specifies the web part title | Any string value | Title value will be displayed as a web part heading. If there is no title specified, then there is no heading. |
 | **Select webpart type** | Select the webpart type to configure preferable webpart | - Submit Idea<br> - Subscriptions<br> - Scroll | Three type of web parts can be configured using a single web part |
-| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value |
+| **Web Part Key** | Specify web part key to retrieve filtered items from a List | Any string value | |
 | **List Name** | Specify the list name to save submitted ideas or subscription details | - For webpart type **'** Submit Idea **'** Default value is ' **DOSNP-CallToAction'.**<br> - For webpart type **'** Subscriptions **'** Default value is ' **DOSNP-EmailSubscribers'.** | This is a read only field |
-| **Header Message** | Specify a header message to display on top of the image | Any string value |
+| **Header Message** | Specify a header message to display on top of the image | Any string value | |
 | **Button Name** | Specify button display text | Any string value | Default value is **Submit** |
-| **Email Template Key** | Specify the email template used to send emails | Default value is **'Home\_CallToAction'** |
-| **Success Message** | Specify the success message to display after submitting the idea | Default value is "The idea has been submitted successfully". |
-| **Click here to Select Image** | Select the relevant image to display |
+| **Email Template Key** | Specify the email template used to send emails | Default value is **'Home\_CallToAction'** | |
+| **Success Message** | Specify the success message to display after submitting the idea | Default value is "The idea has been submitted successfully". | |
+| **Click here to Select Image** | Select the relevant image to display | | |
 | **Button Horizontal Position** | Specifies the submit button horizontal position | - Left<br> - Right<br> - Center | Default value is Center |
 | **Button Vertical Position** | Specifies the submit button vertical position | - Top<br> - Bottom<br> - Center | Default value is Center |
-| **Submit Button Text Color** | Specifies the submit button text color |
-| **Submit Button Background Color** | Specifies the submit button background color |
-| **Scroll Image URL** | Specifies image url to display the image to scroll |
-| **Selector** | Specify selector to scroll the image |
+| **Submit Button Text Color** | Specifies the submit button text color | | |
+| **Submit Button Background Color** | Specifies the submit button background color | | |
+| **Scroll Image URL** | Specifies image url to display the image to scroll | | |
+| **Selector** | Specify selector to scroll the image | | |
 | **Image Position** | Specify Image position to display | - Left<br> - Right<br> - Center | Default value is Center |
-| **Enable Target Audience** | Specify if target audience needs to be enabled | - True<br> - False
+| **Enable Target Audience** | Specify if target audience needs to be enabled | - True<br> - False | |
 | **Type of audience target** | Specify target audience type |- Security Group<br> - Office Location| Target Audience can be enabled based on Security group or office location. |
 | **Security Group Details (separated by semicolon)** | Name of the groups that needs to be targeted | |Separated by semicolon |
 | **Location Details (separated by semicolon)** | Name of the location that needs to be targeted | | Separated by semicolon |
