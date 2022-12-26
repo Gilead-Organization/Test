@@ -14,7 +14,7 @@
 
 [6 How to Navigate to a List](#_Toc122100447)
 
-[7 DOSNP – Dashboard](#_user-content-7-dosnp--dashboard)
+[7 DOSNP – Dashboard](#user-content-7-dosnp--dashboard)
 
 [8 DOSNP - Carousel](#_Toc122100452)
 
